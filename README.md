@@ -24,6 +24,10 @@ MCP-сервер для Claude Code и OpenCode: SSH, Docker, rsync, SQL (Postgr
 Python-библиотека для динамических опросов в Telegram-ботах. Pydantic-валидация, условные ветвления, медиа-вопросы, валидаторы (email, phone, age, password). Документация RU/EN.
 `pip install brief-survey`
 
+### [`claude-skill-tg-import`](https://github.com/Fugguri/claude-skill-tg-import)
+Импорт Telegram-чатов в Markdown с транскрибацией голосовых (Gemini/Whisper), отправка сообщений и клик-тесты ботов из CLI. Авто-маскировка секретов. Claude Code skill.
+`Python · Telethon · Gemini`
+
 ---
 
 ## 🛠 Стек
