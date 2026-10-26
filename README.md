@@ -44,6 +44,11 @@ confirm-flow для опасных операций, мультисерверн�
 Импорт Telegram в Markdown, локальная транскрибация голосовых, поиск,
 отправка и управление чатами; dry-run по умолчанию.
 
+### [`maxws`](https://github.com/Fugguri/maxws)
+**Python · WebSocket · reverse engineering**
+Неофициальный клиент MAX (`max.ru` / `web.max.ru`): кодек кадров, msgpack, LZ4,
+HELLO/AUTH, чаты, медиа и отправка сообщений.
+
 ### Claude Code skills
 [`claude-skill-tg-import`](https://github.com/Fugguri/claude-skill-tg-import) — импорт Telegram в Markdown, транскрибация (Gemini/Whisper), отправка, клик-тесты, авто-маскировка секретов.
 [`claude-skill-aiogram-testing`](https://github.com/Fugguri/claude-skill-aiogram-testing) — pytest для aiogram 3: MockedBot, FSM, dispatch.
