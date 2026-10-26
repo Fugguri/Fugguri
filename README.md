@@ -44,7 +44,7 @@ confirm-flow для опасных операций, мультисерверн�
 Импорт Telegram в Markdown, локальная транскрибация голосовых, поиск,
 отправка и управление чатами; dry-run по умолчанию.
 
-### [`maxws`](https://github.com/Fugguri/maxws)
+### [`max-messenger-client`](https://github.com/Fugguri/max-messenger-client)
 **Python · WebSocket · reverse engineering**
 Неофициальный клиент MAX (`max.ru` / `web.max.ru`): кодек кадров, msgpack, LZ4,
 HELLO/AUTH, чаты, медиа и отправка сообщений.
