@@ -2,51 +2,82 @@
 
 # Никита Радзюк
 
-### AI Engineer · Python · TypeScript
+### AI Engineer · MCP · Python / TypeScript / Go
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
+![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![Claude API](https://img.shields.io/badge/Claude_API-D97757?style=for-the-badge&logo=anthropic&logoColor=white)
+
+Строю AI-продукты и агентную инфраструктуру: MCP-серверы, Telegram-боты,
+пайплайны генерации видео и инструменты для агентных харнесов.
+
+[Сайт](https://fugguri.github.io) · [Telegram](https://t.me/fugguri) · [Email](mailto:nogurru007@gmail.com)
+📍 Санкт-Петербург
 
 </div>
 
 ---
 
-## 📦 Публикации
+## 🔌 Open source
 
-### [`@fugguri/mcp-remote-ops`](https://github.com/Fugguri/mcp-remote-ops) · npm
-MCP-сервер для Claude Code и OpenCode: SSH, Docker, rsync, SQL (PostgreSQL/MySQL/MariaDB/SQLite), confirm-flow для опасных операций, мультисерверная YAML-конфигурация.
-`TypeScript · Vitest · Model Context Protocol`
+### [`mcp-remote-ops`](https://github.com/Fugguri/mcp-remote-ops)
+**TypeScript · MCP**
+MCP-сервер для управления удалённой инфраструктурой из Claude Code и OpenCode:
+SSH exec, Docker logs/restart, rsync, SQL (PostgreSQL/MySQL/MariaDB/SQLite),
+confirm-flow для опасных операций, мультисерверный YAML. Запуск через `npx` из репозитория.
 
-### [`brief-survey`](https://github.com/Fugguri/brief_survey) · PyPI
-Python-библиотека для динамических опросов в Telegram-ботах. Pydantic-валидация, условные ветвления, медиа-вопросы, валидаторы (email, phone, age, password). Документация RU/EN.
+### [`brief-survey`](https://github.com/Fugguri/brief_survey)
+**Python · PyPI · aiogram 3 · Pydantic**
+Динамические опросы для Telegram-ботов: валидация, условные ветвления,
+медиа-вопросы, встроенные валидаторы, документация RU/EN.
 `pip install brief-survey`
 
-### [`claude-skill-tg-import`](https://github.com/Fugguri/claude-skill-tg-import)
-Импорт Telegram-чатов в Markdown с транскрибацией голосовых (Gemini/Whisper), отправка сообщений и клик-тесты ботов из CLI. Авто-маскировка секретов. Claude Code skill.
-`Python · Telethon · Gemini`
+### [`joycode`](https://github.com/Fugguri/joycode)
+**Rust · egui · uinput** · pet-проект
+Управление Claude Code с геймпада на Linux: push-to-talk, подтверждения,
+навигация стиками, слэш-команды и системные аккорды.
+
+### [`tgvault`](https://github.com/Fugguri/tgvault)
+**Go · MTProto · whisper.cpp**
+Импорт Telegram в Markdown, локальная транскрибация голосовых, поиск,
+отправка и управление чатами; dry-run по умолчанию.
+
+### Claude Code skills
+[`claude-skill-tg-import`](https://github.com/Fugguri/claude-skill-tg-import) — импорт Telegram в Markdown, транскрибация (Gemini/Whisper), отправка, клик-тесты, авто-маскировка секретов.
+[`claude-skill-aiogram-testing`](https://github.com/Fugguri/claude-skill-aiogram-testing) — pytest для aiogram 3: MockedBot, FSM, dispatch.
+
+---
+
+## 🧩 Агентные харнесы
+
+Claude Code · Codex · OpenCode — MCP-серверы, skills, hooks, custom tools,
+автоматизация пайплайнов и управление агентами.
 
 ---
 
 ## 🛠 Стек
 
 ```yaml
-Backend:    Python (FastAPI, aiogram 3, asyncio, SQLAlchemy)
-            Node.js, TypeScript
+Backend:    Python (FastAPI, aiogram 3, asyncio, SQLAlchemy), Node.js/TypeScript, Go
 Frontend:   Next.js, React, TypeScript, TailwindCSS
-AI / LLM:   Claude (Sonnet, Opus), OpenAI, MCP, RAG, агенты
-Контент:    FFmpeg, MoviePy — динамический рендеринг видео
-Интеграции: Telegram, WhatsApp (GREEN-API), TikTok, Instagram,
-            Google Sheets, SMTP
-Базы:       PostgreSQL, Redis, SQLite, Alembic
-Инфра:      Docker, Linux, nginx, GitHub Actions
+AI:         Claude, OpenAI, MCP, агентные системы, RAG, function calling
+Media:      FFmpeg, MoviePy, whisper.cpp
+Инфра:      Docker, Linux, nginx, GitHub Actions, PostgreSQL, Redis, SQLite
 ```
+
+Rust — только pet-проекты (joycode), не коммерческий стек.
 
 ---
 
-## 📊 Stats
+## 🤝 Вклад в другие проекты
+
+[`yamusic-tui`](https://github.com/DECE2183/yamusic-tui) — 4 merged PR: playback, pinned albums, playlist errors.
+
+---
+
+## 📊 GitHub
 
 <div align="center">
 
@@ -61,5 +92,6 @@ AI / LLM:   Claude (Sonnet, Opus), OpenAI, MCP, RAG, агенты
 
 📍 Санкт-Петербург
 ✉️ nogurru007@gmail.com
+[Telegram](https://t.me/fugguri) · [Сайт](https://fugguri.github.io)
 
 </div>
